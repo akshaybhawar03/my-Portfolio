@@ -90,7 +90,7 @@ interface SkillItemProps {
 }
 
 const SkillItem = ({ skill }: SkillItemProps) => (
-  <div className="group flex flex-col items-center text-center p-6 rounded-xl transition-all duration-300 hover:bg-slate-800/50 hover:scale-105 mx-2">
+  <div className="group flex flex-col items-center text-center p-4 sm:p-6 rounded-xl transition-all duration-300 hover:bg-slate-800/50 hover:scale-105 w-full">
     <div className="mb-4 transition-transform duration-300 group-hover:scale-110">
       <CircularProgress 
         percentage={skill.level} 
@@ -193,9 +193,11 @@ export default function Skills() {
                   <span className="w-1.5 h-6 bg-amber-400 mr-3 rounded-full"></span>
                   {section.title}
                 </h3>
-                <div className="flex flex-wrap justify-center gap-6">
+                <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-4 px-2 sm:px-0">
                   {sectionSkills.map((skill) => (
-                    <SkillItem key={skill.name} skill={skill} />
+                    <div key={skill.name} className="w-full">
+                      <SkillItem skill={skill} />
+                    </div>
                   ))}
                 </div>
               </div>
