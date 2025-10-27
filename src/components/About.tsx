@@ -2,7 +2,7 @@ import Image from 'next/image';
 
 export default function About() {
   return (
-    <section id="about" className="relative overflow-hidden bg-gradient-to-b from-slate-900 to-slate-800 py-20 sm:py-24">
+    <section id="about" className="relative overflow-hidden bg-linear-to-b from-slate-900 to-slate-800 py-20 sm:py-24">
       <div className="absolute inset-0 opacity-10">
         <div className="absolute inset-0 bg-[url('/grid.svg')] [mask-image:linear-gradient(180deg,white,rgba(255,255,255,0))]"></div>
       </div>

@@ -49,7 +49,7 @@ export default function Contact() {
   return (
     <section id="contact" className="py-10 sm:py-12">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="rounded-2xl border border-gray-700/40 bg-gradient-to-b from-[#0D1B2A] to-[#13293D] text-white">
+        <div className="rounded-2xl border border-gray-700/40 bg-linear-to-b from-[#0D1B2A] to-[#13293D] text-white">
           <div className="flex items-center justify-between gap-4 p-5 sm:p-8 md:p-10">
             <h2 className="text-xl sm:text-2xl md:text-4xl font-extrabold tracking-wide uppercase text-gray-100">
               GOT A PROJECT IN MIND?
@@ -69,7 +69,7 @@ export default function Contact() {
       {open && (
         <div className="fixed inset-0 z-50 flex items-center justify-center px-4">
           <div className="absolute inset-0 bg-black/60" onClick={() => setOpen(false)} />
-          <div className="relative w-full max-w-2xl rounded-2xl border border-gray-700/50 bg-gradient-to-b from-[#0D1B2A] to-[#13293D] text-white p-5 sm:p-8">
+          <div className="relative w-full max-w-2xl rounded-2xl border border-gray-700/50 bg-linear-to-b from-[#0D1B2A] to-[#13293D] text-white p-5 sm:p-8">
             <button
               aria-label="Close"
               onClick={() => setOpen(false)}

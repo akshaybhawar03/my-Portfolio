@@ -17,7 +17,7 @@ export default function ContactCTA({
   return (
     <section id="contact-cta" className="py-10 sm:py-12">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="rounded-2xl border border-gray-700/40 bg-gradient-to-b from-[#0D1B2A] to-[#13293D] text-white">
+        <div className="rounded-2xl border border-gray-700/40 bg-linear-to-b from-[#0D1B2A] to-[#13293D] text-white">
           <div className="flex items-center justify-between gap-4 p-5 sm:p-8 md:p-10">
             <h2 className="text-xl sm:text-2xl md:text-4xl font-extrabold tracking-wide uppercase text-gray-100">
               {title}
