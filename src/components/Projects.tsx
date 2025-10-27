@@ -24,7 +24,7 @@ const projects: Project[] = [
     tech: ["NEXT.JS", "TYPESCRIPT", "TAILWIND CSS", "MySQL"],
     github: "https://github.com/akshaybhawar03/AI-FINANCE",
     demo: "https://ai-itnqc8me8-akshays-projects-da0e0611.vercel.app/",
-    image: "/Projects/project 3.png"
+    image: "/Projects/project1.png"
   },
   {
     id: 2,
@@ -33,7 +33,7 @@ const projects: Project[] = [
     tech: ["REACT", "NODE.JS", "MONGODB"],
     github: "https://github.com/akshaybhawar03/Chat-App",
     demo: "https://chat-app-client-amber-seven.vercel.app/",
-    image: "/Projects/project no 2.png"
+    image: "/Projects/project2.png"
   },
   {
     id: 3,
@@ -42,7 +42,7 @@ const projects: Project[] = [
     tech: ["HTML", "CSS", "Javascript"],
     github: "#",
     demo: "#",
-    image: "/Projects/project no 3.png"
+    image: "/Projects/project3.png"
   },
   {
     id: 4,
@@ -51,7 +51,7 @@ const projects: Project[] = [
     tech: ["Next.Js", "Typescript", "Tailwind.css", "Mongodb"],
     github: "https://github.com/akshaybhawar03/impulse",
     demo: "https://impulse-smoky.vercel.app/",
-    image: "/Projects/project no 4.png"
+    image: "/Projects/project4.png"
   },
   {
     id: 5,
@@ -60,7 +60,7 @@ const projects: Project[] = [
     tech: ["Next.Js", "Typescript", "Tailwind.css", "Mongodb"],
     github: "https://github.com/akshaybhawar03/AI-FINANCE",
     demo: "https://ai-finance-swart.vercel.app/",
-    image: "/Projects/project no 5.png"
+    image: "/Projects/project5.png"
   }
 ];
 
