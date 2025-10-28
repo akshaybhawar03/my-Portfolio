@@ -12,6 +12,11 @@ const inter = Inter({
 export const metadata: Metadata = {
   title: "Akshay Bhawar – Portfolio",
   description: "Personal portfolio built with Next.js, TypeScript, and Tailwind CSS.",
+  icons: {
+    icon: "/logo/Portfolio.png",
+    shortcut: "/logo/Portfolio.png",
+    apple: "/logo/Portfolio.png",
+  },
 };
 
 export default function RootLayout({

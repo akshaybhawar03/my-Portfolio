@@ -163,7 +163,7 @@ export default function Projects() {
     <section id="projects" className="py-16 bg-[#0A192F] text-gray-300">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="mb-10 md:mb-14">
-          <h2 className="uppercase font-extrabold tracking-tight text-gray-300/90 text-3xl sm:text-3xl md:text-6xl">
+          <h2 className="uppercase font-extrabold tracking-tight text-gray-300/90 text-3xl sm:text-3xl md:text-4xl">
             Projects
           </h2>
         </div>
