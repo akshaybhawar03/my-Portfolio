@@ -2,6 +2,8 @@
 
 import Link from "next/link";
 import { useState } from "react";
+import { FiGithub } from "react-icons/fi";
+import { FaLinkedinIn } from "react-icons/fa";
 
 export default function Navbar() {
   const [open, setOpen] = useState(false);
@@ -43,8 +45,24 @@ export default function Navbar() {
               ))}
             </ul>
             <div className="hidden items-center gap-2 md:flex">
-              <button className="rounded-full border border-white/15 px-3 py-1.5 text-sm hover:bg-white/10">IG</button>
-              <button className="rounded-full border border-white/15 px-3 py-1.5 text-sm hover:bg-white/10">GH</button>
+              <a
+                href="https://www.linkedin.com/in/akshay-bhawar-5a7848291"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="LinkedIn"
+                className="inline-flex items-center justify-center rounded-full border border-white/15 w-9 h-9 hover:bg-white/10"
+              >
+                <FaLinkedinIn className="text-base" />
+              </a>
+              <a
+                href="https://github.com/akshaybhawar03"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="GitHub"
+                className="inline-flex items-center justify-center rounded-full border border-white/15 w-9 h-9 hover:bg-white/10"
+              >
+                <FiGithub className="text-base" />
+              </a>
             </div>
           </nav>
           {open && (
