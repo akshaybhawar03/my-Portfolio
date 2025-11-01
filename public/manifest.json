@@ -1,0 +1,13 @@
+{
+  "name": "Akshay Bhawar – Portfolio",
+  "short_name": "Akshay",
+  "description": "Full‑stack developer in Pune, Maharashtra, India. Next.js, TypeScript, Tailwind.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0A192F",
+  "theme_color": "#0A192F",
+  "icons": [
+    { "src": "/logo/Portfolio 1.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "/logo/Portfolio 2.png", "sizes": "512x512", "type": "image/png", "purpose": "any" }
+  ]
+}

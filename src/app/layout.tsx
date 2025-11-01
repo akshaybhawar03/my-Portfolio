@@ -27,7 +27,9 @@ export const metadata: Metadata = {
     "Frontend developer Maharashtra",
     "Next.js projects for internships",
     "Finance tools for Indian students",
-    "Daund developer",
+    "Pune developer",
+    "Akshay Bhawar",
+    "Akshay Bhawar Portfolio"
   ],
   authors: [{ name: "Akshay Bhawar", url: siteUrl }],
   openGraph: {
