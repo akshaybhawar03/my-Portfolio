@@ -54,6 +54,9 @@ export const metadata: Metadata = {
     apple: "/logo/Portfolio.png",
   },
   manifest: "/manifest.json",
+  verification: {
+    google: "Y1Mox3vYUXwpLs66dSBbe3H1FpAP8zCu5rqDBuWqlII",
+  },
 };
 
 export default function RootLayout({
